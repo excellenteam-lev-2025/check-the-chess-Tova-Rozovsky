@@ -178,7 +178,14 @@ class game_state:
             elif pinned_pieces and moving_piece.get_name() is not "k":
                 if starting_square not in pinned_pieces:
                     for move in initial_valid_piece_moves:
-                        valid_moves.append(move)
+                        temp = self.board[move[0]][move[1]]
+                        self.board[move[0]][move[1]] = moving_piece
+                        self.board[current_row][current_col] = Player.EMPTY
+                        if not self.check_for_check(king_location, moving_piece.get_player())[0]:
+                            valid_moves.append(move)
+                        self.board[current_row][current_col] = moving_piece
+                        self.board[move[0]][move[1]] = temp
+
                 elif starting_square in pinned_pieces:
                     for move in initial_valid_piece_moves:
 
@@ -202,7 +209,14 @@ class game_state:
                         self.board[move[0]][move[1]] = temp2
                 else:
                     for move in initial_valid_piece_moves:
-                        valid_moves.append(move)
+                        temp = self.board[move[0]][move[1]]
+                        self.board[move[0]][move[1]] = moving_piece
+                        self.board[current_row][current_col] = Player.EMPTY
+                        if not self.check_for_check(king_location, moving_piece.get_player())[0]:
+                            valid_moves.append(move)
+                        self.board[current_row][current_col] = moving_piece
+                        self.board[move[0]][move[1]] = temp
+
             # if not valid_moves:
             #     if self._is_check:
             #         self.checkmate = True
@@ -854,7 +868,8 @@ class game_state:
                     # self._is_check = True
                     _checks.append((king_location_row + row_change[i], king_location_col + col_change[i]))
         # print([_checks, _pins, _pins_check])
-        return [_pins_check, _pins, _pins_check]
+        return [_checks, _pins, _pins_check]
+
 
 
 class chess_move():
