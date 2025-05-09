@@ -1,7 +1,8 @@
 #
 # Untrack files
 #
-
+extract_signatures.py
+function_signatures.txt
 venv
 __pycache__
 .idea
