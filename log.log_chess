@@ -8,3 +8,79 @@
 2025-05-22 17:38:03,157 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
 2025-05-22 17:38:03,157 - DEBUG - Castling rights set to [True, True, True] for both players.
 2025-05-22 17:42:58,608 - INFO - === End game GUI ===
+2025-05-22 20:14:26,295 - INFO - New chess game initialized.
+2025-05-22 20:14:26,295 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 20:14:26,296 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 20:14:26,296 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 20:15:06,585 - INFO - New chess game initialized.
+2025-05-22 20:15:06,585 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 20:15:06,585 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 20:15:06,585 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 20:17:49,950 - INFO - New chess game initialized.
+2025-05-22 20:17:49,950 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 20:17:49,950 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 20:17:49,950 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 20:19:46,367 - INFO - New chess game initialized.
+2025-05-22 20:19:46,368 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 20:19:46,368 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 20:19:46,368 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 20:23:59,951 - INFO - New chess game initialized.
+2025-05-22 20:23:59,951 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 20:23:59,951 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 20:23:59,951 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:24:24,353 - INFO - New chess game initialized.
+2025-05-22 21:24:24,354 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:24:24,354 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:24:24,354 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:28:35,480 - INFO - New chess game initialized.
+2025-05-22 21:28:35,480 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:28:35,480 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:28:35,480 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:31:03,666 - INFO - New chess game initialized.
+2025-05-22 21:31:03,666 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:31:03,666 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:31:03,666 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:31:03,671 - INFO - New chess game initialized.
+2025-05-22 21:31:03,672 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:31:03,672 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:31:03,672 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:31:18,704 - INFO - New chess game initialized.
+2025-05-22 21:31:18,713 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:31:18,714 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:31:18,714 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:31:18,719 - INFO - New chess game initialized.
+2025-05-22 21:31:18,719 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:31:18,719 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:31:18,719 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:36:47,918 - INFO - New chess game initialized.
+2025-05-22 21:36:47,918 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:36:47,918 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:36:47,918 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:36:47,923 - INFO - New chess game initialized.
+2025-05-22 21:36:47,923 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:36:47,923 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:36:47,923 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:49:01,730 - INFO - New chess game initialized.
+2025-05-22 21:49:01,730 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:49:01,730 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:49:01,731 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:49:01,735 - INFO - New chess game initialized.
+2025-05-22 21:49:01,736 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:49:01,736 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:49:01,736 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:56:19,684 - INFO - New chess game initialized.
+2025-05-22 21:56:19,685 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:56:19,685 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:56:19,685 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:56:19,691 - INFO - New chess game initialized.
+2025-05-22 21:56:19,691 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:56:19,691 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:56:19,691 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:59:16,983 - INFO - New chess game initialized.
+2025-05-22 21:59:16,983 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:59:16,983 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:59:16,983 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 21:59:16,989 - INFO - New chess game initialized.
+2025-05-22 21:59:16,989 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 21:59:16,989 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 21:59:16,989 - DEBUG - Castling rights set to [True, True, True] for both players.
