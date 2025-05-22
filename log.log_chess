@@ -1,0 +1,10 @@
+2025-05-22 17:37:59,593 - INFO - === Start game GUI ===
+2025-05-22 17:38:03,089 - INFO - New chess game initialized.
+2025-05-22 17:38:03,090 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 17:38:03,090 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 17:38:03,090 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 17:38:03,156 - INFO - New chess game initialized.
+2025-05-22 17:38:03,156 - DEBUG - White starts. Board initialized with 16 white pieces and 16 black pieces.
+2025-05-22 17:38:03,157 - DEBUG - White king location: [0, 3], Black king location: [7, 3]
+2025-05-22 17:38:03,157 - DEBUG - Castling rights set to [True, True, True] for both players.
+2025-05-22 17:42:58,608 - INFO - === End game GUI ===

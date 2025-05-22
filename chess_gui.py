@@ -10,7 +10,7 @@ import pygame as py
 
 import ai_engine
 from enums import Player
-
+from log_config import logger
 """Variables"""
 WIDTH = HEIGHT = 512  # width and height of the chess board
 DIMENSION = 8  # the dimensions of the chess board
@@ -87,6 +87,7 @@ def highlight_square(screen, game_state, valid_moves, square_selected):
 
 def main():
     # Check for the number of players and the color of the AI
+    logger.info("=== Start game GUI ===")
     human_player = ""
     while True:
         try:
@@ -190,6 +191,7 @@ def main():
 
         clock.tick(MAX_FPS)
         py.display.flip()
+    logger.info("=== End game GUI ===")
 
     # elif human_player is 'w':
     #     ai = ai_engine.chess_ai()
@@ -269,3 +271,4 @@ def draw_text(screen, text):
 
 if __name__ == "__main__":
     main()
+

@@ -6,6 +6,8 @@
 #
 from Piece import Rook, Knight, Bishop, Queen, King, Pawn
 from enums import Player
+from log_config import logger
+
 
 '''
 r \ c     0           1           2           3           4           5           6           7 
@@ -109,6 +111,12 @@ class game_state:
             [black_rook_1, black_knight_1, black_bishop_1, black_king, black_queen, black_bishop_2, black_knight_2,
              black_rook_2]
         ]
+        logger.info("New chess game initialized.")
+        logger.debug(
+            f"White starts. Board initialized with {len(self.white_pieces)} white pieces and {len(self.black_pieces)} black pieces.")
+        logger.debug(
+            f"White king location: {self._white_king_location}, Black king location: {self._black_king_location}")
+        logger.debug("Castling rights set to [True, True, True] for both players.")
 
     def get_piece(self, row, col):
         if (0 <= row < 8) and (0 <= col < 8):
@@ -235,9 +243,11 @@ class game_state:
         all_black_moves = self.get_all_legal_moves(Player.PLAYER_2)
         if self._is_check and self.whose_turn() and not all_white_moves:
             print("white lost")
+            logger.info("Black wins")
             return 0
         elif self._is_check and not self.whose_turn() and not all_black_moves:
             print("black lost")
+            logger.info("White wins")
             return 1
         elif not all_white_moves and not all_black_moves:
             return 2
@@ -562,8 +572,8 @@ class game_state:
                 self._white_king_location = (undoing_move.starting_square_row, undoing_move.starting_square_col)
             elif undoing_move.moving_piece.get_name() is 'k' and undoing_move.moving_piece.get_player() is Player.PLAYER_2:
                 self._black_king_location = (undoing_move.starting_square_row, undoing_move.starting_square_col)
-
             return undoing_move
+
         else:
             print("Back to the beginning!")
 
